@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPA | Erindale Punjabi Association</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar md:navbar-expand bg-1">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+            EPA | Erindale Punjabi Association
+        </a>
+
+        <button class="btn-icon navbar-toggler"
+                type="button"
+                data-bs-toggle="drawer"
+                data-bs-target="#epaNavigationDrawer"
+                aria-controls="epaNavigationDrawer"
+                aria-expanded="false"
+                aria-label="Open navigation menu">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+
+        <dialog class="drawer drawer-end"
+                tabindex="-1"
+                id="epaNavigationDrawer"
+                aria-labelledby="epaNavigationTitle">
+
+            <div class="drawer-header">
+                <h2 class="drawer-title" id="epaNavigationTitle">
+                    EPA Menu
+                </h2>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="drawer"
+                        aria-label="Close navigation menu">
+                </button>
+            </div>
+
+            <div class="drawer-body">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </dialog>
+
+    </div>
+</nav>
+
+    <header>
+        <h1>Erindale Punjabi Association</h1>
+        <p>Bringing Punjabi culture and community to UTM!</p>
+    </header>
+
+    <main class="container my-5">
+    <h1>Contact EPA</h1>
+    <p>Have questions or want to get involved? Reach out to us!</p>
+
+    <section class="card p-4 my-4">
+        <h2>Get in Touch</h2>
+        <p>We would love to hear from you!</p>
+
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 Erindale Punjabi Association</p>
+    </footer>
+
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

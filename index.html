@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPA | Erindale Punjabi Association</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar md:navbar-expand bg-1">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+            EPA | Erindale Punjabi Association
+        </a>
+
+        <button class="btn-icon navbar-toggler"
+                type="button"
+                data-bs-toggle="drawer"
+                data-bs-target="#epaNavigationDrawer"
+                aria-controls="epaNavigationDrawer"
+                aria-expanded="false"
+                aria-label="Open navigation menu">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+
+        <dialog class="drawer drawer-end"
+                tabindex="-1"
+                id="epaNavigationDrawer"
+                aria-labelledby="epaNavigationTitle">
+
+            <div class="drawer-header">
+                <h2 class="drawer-title" id="epaNavigationTitle">
+                    EPA Menu
+                </h2>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="drawer"
+                        aria-label="Close navigation menu">
+                </button>
+            </div>
+
+            <div class="drawer-body">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </dialog>
+
+    </div>
+</nav>
+
+    <header>
+        <h1>Erindale Punjabi Association</h1>
+        <p>Bringing Punjabi culture and community to UTM!</p>
+    </header>
+
+    <main>
+        <h2>Welcome to EPA</h2>
+        <p>Discover our events, celebrations, and community.</p>
+        <section class="container my-5" aria-label="EPA event highlights">
+    
+        
+    <section class="container my-5" id="events">
+    <h2>More EPA Events</h2>
+    <p>Explore our events and ways to get involved!</p>
+
+    <div class="row g-4">
+
+        <!-- Card 1: Fall Kick-Off -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100">
+                <img src="images/kickoff.jpg" class="card-img-top"
+                     alt="EPA Fall Kick-Off event poster">
+                <div class="card-body">
+                    <h3 class="card-title">Fall Kick-Off</h3>
+                    <p>We started the year by bringing students together.</p>
+                    <details>
+                        <summary>Details</summary>
+                        <p>Our Fall Kick-Off welcomed students with music,
+                           activities, and a chance to meet new people.</p>
+                    </details>
+                    <button class="btn-solid theme-primary"
+                            type="button"
+                            data-bs-toggle="dialog"
+                            data-bs-target="#kickoffDialog">
+                        Learn More
+                    </button>
+                </div>
+            </article>
+        </div>
+
+        <!-- Card 2: Jersey Night -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100">
+                <img src="images/jerseynight.jpeg" class="card-img-top"
+                     alt="EPA Punjabi Jersey Night poster">
+                <div class="card-body">
+                    <h3 class="card-title">Punjabi Jersey Night</h3>
+                    <p>Students represented their favourite sports teams.</p>
+                    <details>
+                        <summary>Details</summary>
+                        <p>Jersey Night brought students together to
+                           show off their jerseys and enjoy competitions.</p>
+                    </details>
+                    <button class="btn-solid theme-primary"
+                            type="button"
+                            data-bs-toggle="dialog"
+                            data-bs-target="#jerseyDialog">
+                        Learn More
+                    </button>
+                </div>
+            </article>
+        </div>
+
+        <!-- Card 3: Culture Day -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100">
+                <img src="images/celebration.jpeg" class="card-img-top"
+                     alt="Punjabi Culture Day celebration poster">
+                <div class="card-body">
+                    <h3 class="card-title">Punjabi Culture Day</h3>
+                    <p>A celebration of Punjabi traditions and heritage.</p>
+                    <details>
+                        <summary>Details</summary>
+                        <p>Culture Day highlights traditional clothing,
+                           Punjabi music, and cultural activities.</p>
+                    </details>
+                    <button class="btn-solid theme-primary"
+                            type="button"
+                            data-bs-toggle="dialog"
+                            data-bs-target="#cultureDialog">
+                        Learn More
+                    </button>
+                </div>
+            </article>
+        </div>
+
+        <!-- Card 4: Bhangra Night -->
+        <div class="col-12 md:col-6 lg:col-4">
+            <article class="card h-100">
+                <img src="images/Bhangra.jpeg" class="card-img-top"
+                     alt="Punjabi cultural poster representing Bhangra Night">
+                <div class="card-body">
+                    <h3 class="card-title">Bhangra Night</h3>
+                    <p>A future event idea featuring Punjabi dance and music.</p>
+                    <details>
+                        <summary>Details</summary>
+                        <p>Students could learn Bhangra steps, enjoy music,
+                           and dance together.</p>
+                    </details>
+                    <button class="btn-solid theme-primary"
+                            type="button"
+                            data-bs-toggle="dialog"
+                            data-bs-target="#bhangraDialog">
+                        Learn More
+                    </button>
+                </div>
+            </article>
+        </div>
+
+        <!-- Card 5: Games Night -->
+        <div class="col-12 md:col-6 lg:col-4">
+            <article class="card h-100">
+                <img src="images/gamesnight.jpeg" class="card-img-top"
+                     alt="EPA event poster representing a student games night">
+                <div class="card-body">
+                    <h3 class="card-title">Punjabi Games Night</h3>
+                    <p>A fun event idea for games and friendly competition.</p>
+                    <details>
+                        <summary>Details</summary>
+                        <p>Students could compete in team games, trivia,
+                           and other fun challenges.</p>
+                    </details>
+                    <button class="btn-solid theme-primary"
+                            type="button"
+                            data-bs-toggle="dialog"
+                            data-bs-target="#gamesDialog">
+                        Learn More
+                    </button>
+                </div>
+            </article>
+        </div>
+
+        <!-- Card 6: Community Meet-Up -->
+        <div class="col-12 md:col-6 lg:col-4">
+            <article class="card h-100">
+                <img src="images/community.jpeg" class="card-img-top"
+                     alt="EPA event poster representing a community meet-up">
+                <div class="card-body">
+                    <h3 class="card-title">EPA Community Meet-Up</h3>
+                    <p>A future opportunity to make friends on campus.</p>
+                    <details>
+                        <summary>Details</summary>
+                        <p>Students could meet the EPA team, share ideas,
+                           and learn about getting involved.</p>
+                    </details>
+                    <button class="btn-solid theme-primary"
+                            type="button"
+                            data-bs-toggle="dialog"
+                            data-bs-target="#communityDialog">
+                        Learn More
+                    </button>
+                </div>
+            </article>
+        </div>
+
+    </div>
+</section>
+
+<!-- Six event dialogs -->
+
+<dialog id="kickoffDialog" aria-labelledby="kickoffTitle">
+    <h2 id="kickoffTitle">Fall Kick-Off</h2>
+    <p>Our Fall Kick-Off helped students connect and start the year together.</p>
+    <button type="button" class="btn-solid theme-primary"
+            data-bs-dismiss="dialog">Close</button>
+</dialog>
+
+<dialog id="jerseyDialog" aria-labelledby="jerseyTitle">
+    <h2 id="jerseyTitle">Punjabi Jersey Night</h2>
+    <p>A night of sports jerseys, friendly competitions, and fun.</p>
+    <button type="button" class="btn-solid theme-primary"
+            data-bs-dismiss="dialog">Close</button>
+</dialog>
+
+<dialog id="cultureDialog" aria-labelledby="cultureTitle">
+    <h2 id="cultureTitle">Punjabi Culture Day</h2>
+    <p>Celebrating Punjabi traditions, clothing, music, and heritage.</p>
+    <button type="button" class="btn-solid theme-primary"
+            data-bs-dismiss="dialog">Close</button>
+</dialog>
+
+<dialog id="bhangraDialog" aria-labelledby="bhangraTitle">
+    <h2 id="bhangraTitle">Bhangra Night</h2>
+    <p>An event idea where students can learn and enjoy Punjabi dance.</p>
+    <button type="button" class="btn-solid theme-primary"
+            data-bs-dismiss="dialog">Close</button>
+</dialog>
+
+<dialog id="gamesDialog" aria-labelledby="gamesTitle">
+    <h2 id="gamesTitle">Punjabi Games Night</h2>
+    <p>A proposed event featuring trivia, team games, and competitions.</p>
+    <button type="button" class="btn-solid theme-primary"
+            data-bs-dismiss="dialog">Close</button>
+</dialog>
+
+<dialog id="communityDialog" aria-labelledby="communityTitle">
+    <h2 id="communityTitle">EPA Community Meet-Up</h2>
+    <p>A proposed gathering to connect with students and the EPA team.</p>
+    <button type="button" class="btn-solid theme-primary"
+            data-bs-dismiss="dialog">Close</button>
+</dialog>
+
+    <div id="epaCarousel" class="carousel slide"
+         data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="images/kickoff.jpg"
+                     class="d-block w-100"
+                     alt="EPA Fall Kick-Off event">
+                <div class="carousel-caption">
+                    <h2>EPA Fall Kick-Off</h2>
+                    <p>Starting the year with our community!</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/jerseynight.jpeg"
+                     class="d-block w-100"
+                     alt="Sports jerseys at EPA Jersey Night">
+                <div class="carousel-caption">
+                    <h2>Punjabi Jersey Night</h2>
+                    <p>Represent your favourite team!</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/celebration.jpeg"
+                     class="d-block w-100"
+                     alt="Punjabi cultural celebration">
+                <div class="carousel-caption">
+                    <h2>Celebrating Punjabi Culture</h2>
+                    <p>Bringing culture and students together.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#epaCarousel"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#epaCarousel"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Erindale Punjabi Association</p>
+    </footer>
+
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
